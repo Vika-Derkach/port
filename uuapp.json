@@ -1,0 +1,234 @@
+{
+  "product": "uu_internationalport_maing01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "uu_internationalport_maing01-hi": {
+    "componentList": [
+      {
+        "code": "UuInternationalport.Routes.PiersList",
+        "name": "PiersList",
+        "tagList": [
+          "UuInternationalport",
+          "Routes",
+          "PiersList"
+        ],
+        "docCode": "UuInternationalportRoutesPiersList",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Routes.PiersList />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.ItemList",
+        "name": "ItemList",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "ItemList"
+        ],
+        "docCode": "UuInternationalportBricksItemList",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.ItemList />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.PiersItem",
+        "name": "PiersItem",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "PiersItem"
+        ],
+        "docCode": "UuInternationalportBricksPiersItem",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.PiersItem />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.PortModal",
+        "name": "PortModal",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "PortModal"
+        ],
+        "docCode": "UuInternationalportBricksPortModal",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.PortModal />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.Forms.PiersCreateModalForm",
+        "name": "PiersCreateModalForm",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "Forms",
+          "PiersCreateModalForm"
+        ],
+        "docCode": "UuInternationalportBricksFormsPiersCreateModalForm",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.Forms.PiersCreateModalForm />"
+      },
+      {
+        "code": "UuInternationalport.Routes.PierDetails",
+        "name": "PierDetails",
+        "tagList": [
+          "UuInternationalport",
+          "Routes",
+          "PierDetails"
+        ],
+        "docCode": "UuInternationalportRoutesPierDetails",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Routes.PierDetails />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.PiersDetailsItem",
+        "name": "PiersDetailsItem",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "PiersDetailsItem"
+        ],
+        "docCode": "UuInternationalportBricksPiersDetailsItem",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.PiersDetailsItem />"
+      },
+      {
+        "code": "UuInternationalport.Routes.BoatsList",
+        "name": "BoatsList",
+        "tagList": [
+          "UuInternationalport",
+          "Routes",
+          "BoatsList"
+        ],
+        "docCode": "UuInternationalportRoutesBoatsList",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Routes.BoatsList />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.BoatItem",
+        "name": "BoatItem",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "BoatItem"
+        ],
+        "docCode": "UuInternationalportBricksBoatItem",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.BoatItem />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.PierBasicInfo",
+        "name": "PierBasicInfo",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "PierBasicInfo"
+        ],
+        "docCode": "UuInternationalportBricksPierBasicInfo",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.PierBasicInfo />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.BoatListView",
+        "name": "BoatListView",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "BoatListView"
+        ],
+        "docCode": "UuInternationalportBricksBoatListView",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.BoatListView />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.Forms.BoatCreateModalForm",
+        "name": "BoatCreateModalForm",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "Forms",
+          "BoatCreateModalForm"
+        ],
+        "docCode": "UuInternationalportBricksFormsBoatCreateModalForm",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.Forms.BoatCreateModalForm />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.Forms.BoatUpdateModalForm",
+        "name": "BoatUpdateModalForm",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "Forms",
+          "BoatUpdateModalForm"
+        ],
+        "docCode": "UuInternationalportBricksFormsBoatUpdateModalForm",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.Forms.BoatUpdateModalForm />"
+      },
+      {
+        "code": "UuInternationalport.Bricks.Forms.PierDeleteForm",
+        "name": "PierDeleteForm",
+        "tagList": [
+          "UuInternationalport",
+          "Bricks",
+          "Forms",
+          "PierDeleteForm"
+        ],
+        "docCode": "UuInternationalportBricksFormsPierDeleteForm",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuInternationalport.Bricks.Forms.PierDeleteForm />"
+      }
+    ]
+  },
+  "uu_internationalport_maing01-server": {}
+}

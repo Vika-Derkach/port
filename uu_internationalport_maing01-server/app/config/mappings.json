@@ -1,0 +1,61 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "realization": "api/controllers/InternationalportMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "pier/create": {
+        "realization": "api/controllers/PierController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "pier/get": {
+        "realization": "api/controllers/PierController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "pier/delete": {
+        "realization": "api/controllers/PierController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "boat/create": {
+        "realization": "api/controllers/BoatController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "boat/update": {
+        "realization": "api/controllers/BoatController.update",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "boat/list": {
+        "realization": "api/controllers/BoatController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "docking/create": {
+        "realization": "api/controllers/DockingController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "pier/list": {
+        "realization": "api/controllers/PierController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "uuSubAppDataStore": {
+    "primary": {
+      "type": "uuAppObjectStore",
+      "realization": "MongoDB",
+      "schemaMap": {
+        "internationalportMain": {
+          "realization": "dao/InternationalportMainMongo"
+        },
+        "pier": {
+          "realization": "dao/PierMongo"
+        },
+        "boat": {
+          "realization": "dao/BoatMongo"
+        },
+        "docking": {
+          "realization": "dao/DockingMongo"
+        }
+      }
+    }
+  }
+}

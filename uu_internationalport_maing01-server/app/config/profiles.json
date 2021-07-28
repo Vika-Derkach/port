@@ -1,0 +1,54 @@
+{
+  "{asid}": {
+    "profileList": ["AsidAuthorities","AsidExecutives","AsidLicenseOwner","Public"],
+    "useCaseMap": {}
+  },
+  "*": {
+    "profileList": ["Authorities","Executives","AwidLicenseOwner","Public"],
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "sysStateList": ["created"],
+        "profileList": ["AwidLicenseOwner"]
+      },
+      "defaultUve": {
+        "profileList": ["Public"]
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "sysStateList": ["created"],
+        "profileList": ["Public","AwidLicenseOwner"]
+      },
+      "pier/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "pier/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "pier/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "boat/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "boat/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "boat/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "docking/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "pier/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      }
+    }
+  }
+}
